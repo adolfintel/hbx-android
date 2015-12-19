@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/tutorial" android:visible="true" android:titleCondensed="@string/tutorial" android:title="@string/tutorial" android:enabled="true"></item><item android:id="@+id/buy" android:visible="true" android:titleCondensed="@string/buy" android:title="@string/buy" android:enabled="true"></item><item android:id="@+id/market" android:title="@string/market" android:enabled="true" android:visible="true"></item><item android:id="@+id/gplus" android:visible="true" android:titleCondensed="@string/gplus" android:title="@string/gplus" android:enabled="true"></item><item android:id="@+id/fb" android:visible="true" android:titleCondensed="@string/fb" android:title="@string/fb" android:enabled="true"></item><item android:id="@+id/twitter" android:visible="true" android:titleCondensed="@string/twitter" android:title="@string/twitter" android:enabled="true"></item><item android:id="@+id/about" android:title="@string/about" android:enabled="true" android:titleCondensed="@string/about" android:visible="true"></item>
+	
+    <item android:id="@+id/exit" android:visible="true" android:titleCondensed="@string/exit" android:title="@string/exit" android:enabled="true"></item>
+    
+    
+    
+    
+    
+    
+</menu>
