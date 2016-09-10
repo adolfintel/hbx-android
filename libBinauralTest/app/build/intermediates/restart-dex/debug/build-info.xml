@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="16"
+    density="xhdpi"
+    format="7"
+    timestamp="2239911329899477"
+    token="-3730558890268518187" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="2239911329899477" >
+        <artifact
+            location="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

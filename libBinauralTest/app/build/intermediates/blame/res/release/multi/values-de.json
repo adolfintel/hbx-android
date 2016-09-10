@@ -1,0 +1,387 @@
+[
+    {
+        "outputFile": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\res\\merged\\release\\values-de\\values-de.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 110,
+                    "endOffset": 211
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 329,
+                        "endColumn": 110,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 216,
+                    "endColumn": 195,
+                    "endOffset": 407
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 195,
+                        "endOffset": 631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 412,
+                    "endColumn": 129,
+                    "endOffset": 537
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 636,
+                        "endColumn": 129,
+                        "endOffset": 761
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 542,
+                    "endColumn": 133,
+                    "endOffset": 671
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 766,
+                        "endColumn": 133,
+                        "endOffset": 895
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 676,
+                    "endColumn": 243,
+                    "endOffset": 915
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 900,
+                        "endColumn": 243,
+                        "endOffset": 1139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 920,
+                    "endColumn": 240,
+                    "endOffset": 1156
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1144,
+                        "endColumn": 240,
+                        "endOffset": 1380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1161,
+                    "endColumn": 132,
+                    "endOffset": 1289
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1385,
+                        "endColumn": 132,
+                        "endOffset": 1513
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1294,
+                    "endColumn": 147,
+                    "endOffset": 1437
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1518,
+                        "endColumn": 147,
+                        "endOffset": 1661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1442,
+                    "endColumn": 242,
+                    "endOffset": 1680
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 242,
+                        "endOffset": 569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1685,
+                    "endColumn": 303,
+                    "endOffset": 1984
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1666,
+                        "endColumn": 303,
+                        "endOffset": 1965
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1989,
+                    "endColumn": 122,
+                    "endOffset": 2107
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1970,
+                        "endColumn": 122,
+                        "endOffset": 2088
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 2112,
+                    "endColumn": 113,
+                    "endOffset": 2221
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2093,
+                        "endColumn": 113,
+                        "endOffset": 2202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2226,
+                    "endColumn": 199,
+                    "endOffset": 2421
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2207,
+                        "endColumn": 199,
+                        "endOffset": 2402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2426,
+                    "endColumn": 132,
+                    "endOffset": 2554
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2407,
+                        "endColumn": 132,
+                        "endOffset": 2535
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2559,
+                    "endColumn": 220,
+                    "endOffset": 2775
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2540,
+                        "endColumn": 220,
+                        "endOffset": 2756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2780,
+                    "endColumn": 140,
+                    "endOffset": 2916
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2761,
+                        "endColumn": 140,
+                        "endOffset": 2897
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2921,
+                    "endColumn": 205,
+                    "endOffset": 3122
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2902,
+                        "endColumn": 205,
+                        "endOffset": 3103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 3127,
+                    "endColumn": 100,
+                    "endOffset": 3223
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 3108,
+                        "endColumn": 100,
+                        "endOffset": 3204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 3228,
+                    "endColumn": 92,
+                    "endOffset": 3316
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3209,
+                        "endColumn": 92,
+                        "endOffset": 3297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 3321,
+                    "endColumn": 108,
+                    "endOffset": 3425
+                },
+                "from": {
+                    "file": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-de\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3302,
+                        "endColumn": 108,
+                        "endOffset": 3406
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -10,14 +10,14 @@ This Android port only has playback playback capabilities
 Android 2.3 and up
 
 ## Loading the project
-Import the project into Eclipse with ADT. (This project was made WAY before Android Studio)
+Import the project into Android Studio. Note: this project was developed way before Android Studio, so it was brutally imported and made to work with a couple of workarounds.
 
 ## Screenshots
 ![Screenshot](http://adolfintel.com/hbx/android1.png)
 ![Screenshot](http://adolfintel.com/hbx/android2.png)
 
 ## License
-Copyright (C) 2015 Federico Dossena
+Copyright (C) 2013-2016 Federico Dossena
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
