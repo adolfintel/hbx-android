@@ -1,4 +1,0 @@
-CHANGED,C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\dosse\binaural\BinauralEnvelope$override.class
-CHANGED,C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\dosse\binaural\BinauralEnvelope$Envelope$override.class
-CHANGED,C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\dosse\binaural\BinauralEnvelope$Envelope$EnvelopeEntry$override.class
