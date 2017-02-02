@@ -445,7 +445,7 @@ public class MainActivity extends Activity {
 		String[] list = fileList();
 		HashMap<String, String> item = new HashMap<String, String>();
 		item.put("preset", getString(R.string.getPresets));
-		item.put("path", "http://hbx.adolfintel.com/presets_app.html");
+		item.put("path", "http://hbx.fdossena.com/presets_app.html");
 		item.put("cleanName",getString(R.string.getPresets));
 		presetList.add(item);
 		for (String f : list) {

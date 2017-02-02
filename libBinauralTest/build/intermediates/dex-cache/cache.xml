@@ -1,3 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="false"
+        jar="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-ads-lite-9.4.0_57ac7de32bafe5f4a13d66eb9c67e26f44f61efc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-ads-9.4.0_b377a92c7bf8368a3210f4b87e6f249d66358d47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-clearcut-9.4.0_15c6e5762b1bb71f2919dedae2e40d2c10be0e00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\pre-dexed\release\internal_impl-23.0.0_6af3083abf7fd75ce7540e78b2055b59b6d7281b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Federico\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\pre-dexed\release\support-annotations-23.0.0_0b80ad232fa42799a89e40d349cdcce00cc1047a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-9.4.0_e9516fb1c047b4f6de7ccf030727b2f5ca8b2350.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-gass-9.4.0_fceb5bca614e64019fe4f1b4af16b2fab8048c80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-tasks-9.4.0_4077bde40c4ade4f49d49b9cfb68fe133dc31069.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-base-9.4.0_bea429667535a4f311ff20adb2f5184ec0be7825.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\_PROJECTS\HBX Binaural Player\Android new\libBinauralTest\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.0.0_6472053a426648487a207f0b1b28ab74f71c4c52.jar" />
+    </item>
+
+</items>

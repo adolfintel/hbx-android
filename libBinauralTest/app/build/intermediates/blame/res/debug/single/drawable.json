@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tut1.png",
-        "source": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\src\\main\\res\\drawable\\tut1.png"
-    },
-    {
         "merged": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
         "source": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
         "source": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tut1.png",
+        "source": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\src\\main\\res\\drawable\\tut1.png"
     },
     {
         "merged": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\binph.png",
@@ -24,12 +24,12 @@
         "source": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\brain.png",
-        "source": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\src\\main\\res\\drawable\\brain.png"
-    },
-    {
         "merged": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\headphones.png",
         "source": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\src\\main\\res\\drawable\\headphones.png"
+    },
+    {
+        "merged": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\brain.png",
+        "source": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\src\\main\\res\\drawable\\brain.png"
     },
     {
         "merged": "C:\\_PROJECTS\\HBX Binaural Player\\Android new\\libBinauralTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
