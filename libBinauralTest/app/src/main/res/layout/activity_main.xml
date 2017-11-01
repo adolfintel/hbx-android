@@ -23,7 +23,7 @@
 		android:layout_above="@+id/volume"
 		android:layout_alignLeft="@+id/volume"
 		android:layout_below="@id/adView"
-		android:layout_marginRight="13dp">
+		android:layout_marginRight="12dp">
 	</ListView>
 
 	<SeekBar
