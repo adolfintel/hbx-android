@@ -50,7 +50,7 @@ import com.google.android.gms.ads.AdView;
 
 public class MainActivity extends Activity {
 	private Button playPause, stop;
-	private SeekBar prog;
+	private SeekBar prog, volume;
 	private TextView time;
 	private static BEPThread bep;
 	private static boolean playing = false;
@@ -83,8 +83,19 @@ public class MainActivity extends Activity {
 							getApplicationContext(), 0,
 							new Intent(getApplicationContext(),
 									MainActivity.class), 0);
-					note.setLatestEventInfo(getApplicationContext(),
-							notificationName, currentPresetName, intent);
+					
+					Notification.Builder builder = new Notification.Builder(MainActivity.this); 
+					builder.setAutoCancel(false); 
+					builder.setContentTitle("Binaural Beats"); 
+					builder.setContentText(currentPresetName);
+					builder.setSmallIcon(R.drawable.ic_launcher); 
+					builder.setContentIntent(intent); 
+					builder.setOngoing(true); 
+					builder.setSubText("Playing...");
+					builder.setNumber(100); 
+					builder.build(); 						
+					note = builder.getNotification(); 
+					
 					notifManager.notify(0, note);
 				} else {
 					NotificationManager notifManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
@@ -149,6 +160,7 @@ public class MainActivity extends Activity {
 		private void createBEPlayer(BinauralEnvelope be) {
 			beplayer = new BinauralEnvelopePlayer(be);
 			beplayer.paused = true;
+			beplayer.setVolume(volume.getProgress() / 100.0);
 			beplayer.start();
 		}
 
@@ -310,6 +322,7 @@ public class MainActivity extends Activity {
 		stop = (Button) findViewById(R.id.s);
 		prog = (SeekBar) findViewById(R.id.prog);
 		time = (TextView) findViewById(R.id.t);
+		volume = (SeekBar) findViewById(R.id.volume);
 		//hide ads, will be shown again if the app is not licensed
 		adsH=((AdView)findViewById(R.id.adView)).getLayoutParams().height;
 		((AdView)findViewById(R.id.adView)).getLayoutParams().height=0;
@@ -331,6 +344,7 @@ public class MainActivity extends Activity {
 					.getAssets());
 			bep = new BEPThread(loadPreset(null), time, prog, playPause);
 			bep.start();
+			volume.setProgress(100);
 		} else {
 			bep.time = time;
 			bep.prog = prog;
@@ -338,6 +352,9 @@ public class MainActivity extends Activity {
 			playPause.setText(playing ? getString(R.string.pause)
 					: getString(R.string.play));
 		}
+		
+		bep.beplayer.setVolume(volume.getProgress() / 100.0);
+		
 		if (not == null) {
 			not = new Notificator();
 			not.start();
@@ -354,6 +371,7 @@ public class MainActivity extends Activity {
 						Toast.makeText(getApplicationContext(),
 								getString(R.string.headphonesWarning),
 								Toast.LENGTH_LONG).show();
+					bep.beplayer.setVolume(volume.getProgress() / 100.0);			
 					bep.unPause();
 					playPause.setText(getString(R.string.pause));
 				}
@@ -369,6 +387,25 @@ public class MainActivity extends Activity {
 					bep.setPosition(0);
 			}
 		});
+		
+		volume.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
+				@Override
+				public void onStopTrackingTouch(SeekBar seekBar) {
+				}
+
+				@Override
+				public void onStartTrackingTouch(SeekBar seekBar) {
+				}
+
+				@Override
+				public void onProgressChanged(SeekBar seekBar, int progress,
+											  boolean fromUser) {
+					if (fromUser) {
+						bep.beplayer.setVolume(progress / 100.0);
+					}
+				}
+			});
+		
 		prog.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
 			@Override
 			public void onStopTrackingTouch(SeekBar seekBar) {
@@ -513,6 +550,7 @@ public class MainActivity extends Activity {
 	@Override
 	public void onResume() {
 		populatePresetList();
+		bep.beplayer.setVolume(volume.getProgress() / 100.0);
 		super.onResume();
 	}
 	@Override
