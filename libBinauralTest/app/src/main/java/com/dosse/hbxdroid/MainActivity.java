@@ -83,8 +83,19 @@ public class MainActivity extends Activity {
 							getApplicationContext(), 0,
 							new Intent(getApplicationContext(),
 									MainActivity.class), 0);
-					note.setLatestEventInfo(getApplicationContext(),
-							notificationName, currentPresetName, intent);
+					
+					Notification.Builder builder = new Notification.Builder(MainActivity.this); 
+					builder.setAutoCancel(false); 
+					builder.setContentTitle("Binaural Beats"); 
+					builder.setContentText(currentPresetName);
+					builder.setSmallIcon(R.drawable.ic_launcher); 
+					builder.setContentIntent(intent); 
+					builder.setOngoing(true); 
+					builder.setSubText("Playing...");
+					builder.setNumber(100); 
+					builder.build(); 						
+					note = builder.getNotification(); 
+					
 					notifManager.notify(0, note);
 				} else {
 					NotificationManager notifManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
