@@ -44,9 +44,7 @@
     <string name="tutorial">Tutorial</string>
     <string name="about">Informazioni su</string>
     <string name="exit">Esci</string>
-    <string name="market">Vota applicazione</string>
     <string name="fb">Facebook</string>
     <string name="gplus">Google+</string>
     <string name="twitter">Twitter</string>
-    <string name="buy">Rimuovi pubblicità</string>
 </resources>

@@ -25,7 +25,6 @@
     <string name="accept">Accept</string>
     <string name="app_name">HBX Binaural Player</string>
     <string name="browser_name">Download presets</string>
-    <string name="buy">Remove ads</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -61,7 +60,6 @@
     <string name="headphonesWarning">Remember: you need stereo headphones!</string>
     <string name="loadFail">Couldn\'t load preset because </string>
     <string name="loadSuccess">Preset loaded</string>
-    <string name="market">Rate application</string>
     <string name="no">No</string>
     <string name="noConnection">Internet connection required</string>
     <string name="notAPreset">it\'s not a preset</string>
@@ -91,14 +89,10 @@
     <string name="wantTutorial">Do you want to see a short tutorial?</string>
     <string name="yes">Yes</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style>
     <style name="Theme.IAPTheme" parent="android:Theme">
     <item name="android:windowIsTranslucent">true</item>

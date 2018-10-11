@@ -1,18 +1,5 @@
 package com.dosse.hbxdroid;
 
-import java.io.BufferedReader;
-import java.io.ByteArrayOutputStream;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.ObjectInputStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.zip.GZIPInputStream;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Notification;
@@ -25,8 +12,6 @@ import android.content.pm.PackageManager;
 import android.media.AudioManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Looper;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -45,7 +30,18 @@ import android.widget.Toast;
 import com.dosse.binaural.BinauralEnvelope;
 import com.dosse.binaural.BinauralEnvelopePlayer;
 import com.dosse.libBinauralTest.beta.R;
-import com.google.android.gms.ads.AdView;
+
+import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.zip.GZIPInputStream;
 
 
 public class MainActivity extends Activity {
@@ -57,14 +53,6 @@ public class MainActivity extends Activity {
 	private static Notificator not;
 	private static String currentPreset = "", currentPresetName= "";
 	private Menu optionsMenu;
-	private void removeBuyOption(){
-		runOnUiThread(new Runnable() {
-			@Override
-			public void run() {
-				optionsMenu.getItem(1).setVisible(false);
-			}
-		});
-	}
 	
 	private class Notificator extends Thread {
 		public void run() {
@@ -310,22 +298,6 @@ public class MainActivity extends Activity {
 		stop = (Button) findViewById(R.id.s);
 		prog = (SeekBar) findViewById(R.id.prog);
 		time = (TextView) findViewById(R.id.t);
-		//hide ads, will be shown again if the app is not licensed
-		adsH=((AdView)findViewById(R.id.adView)).getLayoutParams().height;
-		((AdView)findViewById(R.id.adView)).getLayoutParams().height=0;
-		new Thread() {
-			public void run() {
-				while(optionsMenu==null) //this workaround is cheaper than a pop station 3
-					try {
-						Thread.sleep(10);
-					} catch (InterruptedException e) {}
-				if (isPackageInstalled("com.dosse.libbinauraltestkey")) {
-					removeBuyOption();
-				}else{
-					loadAds();
-				}
-			}
-		}.start();
 		if (bep == null) {
 			BinauralEnvelopePlayer.loadNoiseFromAssets(getApplication()
 					.getAssets());
@@ -415,20 +387,6 @@ public class MainActivity extends Activity {
 			}
 		}
 
-	}
-
-	private void loadAds(){
-		try{
-			runOnUiThread(new Runnable() {
-				@Override
-				public void run() {
-					try{
-						((AdView)findViewById(R.id.adView)).getLayoutParams().height=adsH;
-						((AdView)findViewById(R.id.adView)).loadAd(new com.google.android.gms.ads.AdRequest.Builder().build());
-					}catch(Throwable t){}
-				}
-			});
-		}catch(Throwable t){}
 	}
 
 	private String cleanupString(String s){
@@ -536,11 +494,6 @@ public class MainActivity extends Activity {
 		}
 		if (item.getItemId() == R.id.tutorial) {
 			startActivity(new Intent(this, TutorialActivity.class));
-			return true;
-		}
-		if (item.getItemId() == R.id.market) {
-			startActivity(new Intent(Intent.ACTION_VIEW,
-					Uri.parse("market://details?id=com.dosse.libBinauralTest.beta")));
 			return true;
 		}
 		if (item.getItemId() == R.id.fb) {

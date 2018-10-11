@@ -169,52 +169,49 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int tut2=0x7f020030;
     }
     public static final class id {
-        public static final int about=0x7f09002d;
+        public static final int about=0x7f09002a;
         public static final int aboutText=0x7f090009;
-        public static final int adView=0x7f090011;
         public static final int adjust_height=0x7f090000;
         public static final int adjust_width=0x7f090001;
         public static final int auto=0x7f090006;
         public static final int browser=0x7f09000b;
-        public static final int buy=0x7f090028;
         public static final int dark=0x7f090007;
-        public static final int exit=0x7f09002e;
-        public static final int fb=0x7f09002b;
-        public static final int fileList=0x7f090012;
-        public static final int gplus=0x7f09002a;
+        public static final int exit=0x7f09002b;
+        public static final int fb=0x7f090028;
+        public static final int fileList=0x7f090011;
+        public static final int gplus=0x7f090027;
         public static final int icon_only=0x7f090003;
-        public static final int imageView1=0x7f090019;
-        public static final int imageView101=0x7f090016;
-        public static final int imageView2=0x7f09001b;
-        public static final int imageView3=0x7f09001e;
-        public static final int imageView4=0x7f090022;
-        public static final int imageView5=0x7f090025;
+        public static final int imageView1=0x7f090018;
+        public static final int imageView101=0x7f090015;
+        public static final int imageView2=0x7f09001a;
+        public static final int imageView3=0x7f09001d;
+        public static final int imageView4=0x7f090021;
+        public static final int imageView5=0x7f090024;
         public static final int light=0x7f090008;
         public static final int mainRL=0x7f09000c;
-        public static final int market=0x7f090029;
         public static final int none=0x7f090002;
         public static final int p=0x7f09000d;
-        public static final int panelpager=0x7f090013;
+        public static final int panelpager=0x7f090012;
         public static final int prog=0x7f090010;
         public static final int progressBar1=0x7f09000a;
         public static final int s=0x7f09000f;
         public static final int standard=0x7f090004;
         public static final int t=0x7f09000e;
-        public static final int textView1=0x7f090017;
-        public static final int textView10=0x7f090024;
-        public static final int textView101=0x7f090014;
-        public static final int textView102=0x7f090015;
-        public static final int textView11=0x7f090026;
-        public static final int textView2=0x7f090018;
-        public static final int textView3=0x7f09001a;
-        public static final int textView4=0x7f09001c;
-        public static final int textView5=0x7f09001d;
-        public static final int textView6=0x7f09001f;
-        public static final int textView7=0x7f090020;
-        public static final int textView8=0x7f090021;
-        public static final int textView9=0x7f090023;
-        public static final int tutorial=0x7f090027;
-        public static final int twitter=0x7f09002c;
+        public static final int textView1=0x7f090016;
+        public static final int textView10=0x7f090023;
+        public static final int textView101=0x7f090013;
+        public static final int textView102=0x7f090014;
+        public static final int textView11=0x7f090025;
+        public static final int textView2=0x7f090017;
+        public static final int textView3=0x7f090019;
+        public static final int textView4=0x7f09001b;
+        public static final int textView5=0x7f09001c;
+        public static final int textView6=0x7f09001e;
+        public static final int textView7=0x7f09001f;
+        public static final int textView8=0x7f090020;
+        public static final int textView9=0x7f090022;
+        public static final int tutorial=0x7f090026;
+        public static final int twitter=0x7f090029;
         public static final int wide=0x7f090005;
     }
     public static final class integer {
@@ -237,10 +234,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class string {
         public static final int about=0x7f040014;
         public static final int aboutHTML=0x7f040015;
-        public static final int accept=0x7f040040;
+        public static final int accept=0x7f04003e;
         public static final int app_name=0x7f040016;
         public static final int browser_name=0x7f040017;
-        public static final int buy=0x7f040018;
         public static final int common_google_play_services_enable_button=0x7f040000;
         public static final int common_google_play_services_enable_text=0x7f040001;
         public static final int common_google_play_services_enable_title=0x7f040002;
@@ -261,63 +257,55 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int common_open_on_phone=0x7f040011;
         public static final int common_signin_button_text=0x7f040012;
         public static final int common_signin_button_text_long=0x7f040013;
-        public static final int create_calendar_message=0x7f040041;
-        public static final int create_calendar_title=0x7f040042;
-        public static final int decline=0x7f040043;
-        public static final int delete=0x7f040019;
-        public static final int deleted=0x7f04001a;
-        public static final int downloadFail=0x7f04001b;
-        public static final int downloadSuccess=0x7f04001c;
-        public static final int downloadedPreset=0x7f04001d;
-        public static final int exit=0x7f04001e;
-        public static final int fb=0x7f04001f;
-        public static final int getPresets=0x7f040020;
-        public static final int gplus=0x7f040021;
-        public static final int headphonesWarning=0x7f040022;
-        public static final int loadFail=0x7f040023;
-        public static final int loadSuccess=0x7f040024;
-        public static final int market=0x7f040025;
-        public static final int no=0x7f040026;
-        public static final int noConnection=0x7f040027;
-        public static final int notAPreset=0x7f040028;
-        public static final int pause=0x7f040029;
-        public static final int play=0x7f04002a;
-        public static final int playPause=0x7f04002b;
-        public static final int saveFail=0x7f04002c;
-        public static final int shitPhone=0x7f04002d;
-        public static final int stop=0x7f04002e;
-        public static final int store_picture_message=0x7f040044;
-        public static final int store_picture_title=0x7f040045;
-        public static final int tut0_1=0x7f04002f;
-        public static final int tut0_2=0x7f040030;
-        public static final int tut1_1=0x7f040031;
-        public static final int tut1_2=0x7f040032;
-        public static final int tut1_3=0x7f040033;
-        public static final int tut2_1=0x7f040034;
-        public static final int tut2_2=0x7f040035;
-        public static final int tut2_3=0x7f040036;
-        public static final int tut3_1=0x7f040037;
-        public static final int tut3_2=0x7f040038;
-        public static final int tut3_3=0x7f040039;
-        public static final int tut4_1=0x7f04003a;
-        public static final int tut4_2=0x7f04003b;
-        public static final int tutorial=0x7f04003c;
-        public static final int twitter=0x7f04003d;
-        public static final int wantTutorial=0x7f04003e;
-        public static final int yes=0x7f04003f;
+        public static final int create_calendar_message=0x7f04003f;
+        public static final int create_calendar_title=0x7f040040;
+        public static final int decline=0x7f040041;
+        public static final int delete=0x7f040018;
+        public static final int deleted=0x7f040019;
+        public static final int downloadFail=0x7f04001a;
+        public static final int downloadSuccess=0x7f04001b;
+        public static final int downloadedPreset=0x7f04001c;
+        public static final int exit=0x7f04001d;
+        public static final int fb=0x7f04001e;
+        public static final int getPresets=0x7f04001f;
+        public static final int gplus=0x7f040020;
+        public static final int headphonesWarning=0x7f040021;
+        public static final int loadFail=0x7f040022;
+        public static final int loadSuccess=0x7f040023;
+        public static final int no=0x7f040024;
+        public static final int noConnection=0x7f040025;
+        public static final int notAPreset=0x7f040026;
+        public static final int pause=0x7f040027;
+        public static final int play=0x7f040028;
+        public static final int playPause=0x7f040029;
+        public static final int saveFail=0x7f04002a;
+        public static final int shitPhone=0x7f04002b;
+        public static final int stop=0x7f04002c;
+        public static final int store_picture_message=0x7f040042;
+        public static final int store_picture_title=0x7f040043;
+        public static final int tut0_1=0x7f04002d;
+        public static final int tut0_2=0x7f04002e;
+        public static final int tut1_1=0x7f04002f;
+        public static final int tut1_2=0x7f040030;
+        public static final int tut1_3=0x7f040031;
+        public static final int tut2_1=0x7f040032;
+        public static final int tut2_2=0x7f040033;
+        public static final int tut2_3=0x7f040034;
+        public static final int tut3_1=0x7f040035;
+        public static final int tut3_2=0x7f040036;
+        public static final int tut3_3=0x7f040037;
+        public static final int tut4_1=0x7f040038;
+        public static final int tut4_2=0x7f040039;
+        public static final int tutorial=0x7f04003a;
+        public static final int twitter=0x7f04003b;
+        public static final int wantTutorial=0x7f04003c;
+        public static final int yes=0x7f04003d;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f050000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f050001;
         public static final int Theme_IAPTheme=0x7f050002;
     }

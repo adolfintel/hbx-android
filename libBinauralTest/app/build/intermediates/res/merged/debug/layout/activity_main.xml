@@ -43,21 +43,13 @@
         android:layout_alignRight="@+id/t"
         android:text="@string/stop" />
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        ads:adUnitId="ca-app-pub-6263530127209064/2816736631"
-        ads:adSize="SMART_BANNER" />
-
     <ListView
         android:id="@+id/fileList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/prog"
         android:layout_alignLeft="@+id/prog"
-        android:layout_below="@id/adView" 
+        android:layout_alignParentTop="true"
         android:layout_marginRight="12dp">
     </ListView>
 

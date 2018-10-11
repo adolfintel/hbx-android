@@ -4,7 +4,7 @@ Free and Open Source Brainwave Entrainment application.
 This Android port only has playback playback capabilities
  
 ## Download
-[Download from Google Play](https://play.google.com/store/apps/details?id=com.dosse.libBinauralTest.beta)
+This app is now deprecated and is no longer available from Google Play, however, you can still get it from [my website](http://downloads.fdossena.com/geth.php?r=hbx-androidbin).
  
 ## Compatibility
 Android 2.3 and up
@@ -13,8 +13,8 @@ Android 2.3 and up
 Import the project into Android Studio. Note: this project was developed way before Android Studio, so it was brutally imported and made to work with a couple of workarounds.
 
 ## Screenshots
-![Screenshot](http://adolfintel.com/hbx/android1.png)
-![Screenshot](http://adolfintel.com/hbx/android2.png)
+![Screenshot](http://fdossena.com/hbx/android1.png)
+![Screenshot](http://fdossena.com/hbx/android2.png)
 
 ## License
 Copyright (C) 2013-2016 Federico Dossena

@@ -4,7 +4,6 @@
     <string name="aboutHTML">&lt;html>&lt;b>HBX Binaural Player&lt;/b> &amp;egrave; un&amp;apos;applicazione di brainwave entrainment gratuita e open source.&lt;br/>Quest&amp;apos;applicazione &amp;egrave; sviluppata usando libBinaural (libreria java per battiti binaurali), sviluppata da me. LibBinaural e HBX Binaural Player sono software libero rilasciato su licenza GPL, disponibile su http://www.gnu.org/licenses/gpl.html&lt;br/>Quest&amp;apos;applicazione &amp;egrave; fornita senza ALCUNA GARANZIA, IMPLICITA O ESPLICITA. SEI RESPONSABILE DI QUELLO CHE FAI CON L&amp;apos;APPLICAZIONE.&lt;/html></string>
     <string name="app_name">HBX Binaural Player</string>
     <string name="browser_name">Scarica preset</string>
-    <string name="buy">Rimuovi pubblicità</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Attiva"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà se non attivi Google Play Services."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Attiva Google Play Services"</string>
@@ -37,7 +36,6 @@
     <string name="headphonesWarning">Ricorda: ti servono delle cuffie stereo!</string>
     <string name="loadFail">Impossibile caricare il preset perché </string>
     <string name="loadSuccess">Preset caricato</string>
-    <string name="market">Vota applicazione</string>
     <string name="no">No</string>
     <string name="noConnection">Nessuna connessione ad internet</string>
     <string name="notAPreset">non è un preset</string>
